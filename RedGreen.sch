@@ -263,7 +263,7 @@ GND
 Text GLabel 7640 5710 3    50   Input ~ 0
 GND
 Text GLabel 8040 5760 3    50   Input ~ 0
-VCC
+IRVCC
 Text GLabel 7840 5710 3    50   Input ~ 0
 ICP1
 $Comp
@@ -867,7 +867,6 @@ NoConn ~ 3600 2900
 NoConn ~ 3600 3000
 NoConn ~ 3600 3400
 NoConn ~ 3600 3500
-NoConn ~ 3600 3700
 NoConn ~ 3600 3800
 NoConn ~ 3600 3900
 NoConn ~ 3600 4000
@@ -912,4 +911,6 @@ $EndComp
 Connection ~ 1800 1870
 Wire Wire Line
 	1800 1870 1850 1870
+Text GLabel 3600 3700 2    50   Input ~ 0
+IRVCC
 $EndSCHEMATC
